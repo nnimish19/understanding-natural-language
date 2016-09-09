@@ -6,10 +6,19 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		2C9ADA151D7219F80074D9E0 /* test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test.py; sourceTree = "<group>"; };
+		2C9ADA161D7336CF0074D9E0 /* stopwords.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = stopwords.py; sourceTree = "<group>"; };
+		2C9ADA171D7768020074D9E0 /* StemmerFile.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = StemmerFile.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		2C9ADA0A1D7217310074D9E0 = {
 			isa = PBXGroup;
 			children = (
+				2C9ADA171D7768020074D9E0 /* StemmerFile.py */,
+				2C9ADA151D7219F80074D9E0 /* test.py */,
+				2C9ADA161D7336CF0074D9E0 /* stopwords.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -22,7 +31,8 @@
 			buildConfigurationList = 2C9ADA121D7217310074D9E0 /* Build configuration list for PBXLegacyTarget "Python Project" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/bin/make;
+			buildToolPath = /Library/Frameworks/Python.framework/Versions/2.7/bin/python;
+			buildWorkingDirectory = "/Users/nj/nimish/coding/Python Project";
 			dependencies = (
 			);
 			name = "Python Project";
